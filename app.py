@@ -182,8 +182,8 @@ def section_view(title: str, default_folder: str, key_prefix: str):
         with a: st.subheader(f"{d1p}"); show(d1p)
         with b: st.subheader(f"{d2p}"); show(d2p)
 
-section_view("❄️ Snow Melt Progression", "data/snowmelt", "snow")
-section_view("🏞️ Island Lake Images",   "data/island_lake", "island")
+section_view("❄️ Snow Melt Progression", "Data/Snow melt progression", "snow")
+section_view("🏞️ Island Lake Images",   "Data/Island Lake", "island")
 
 st.sidebar.markdown("---")
 st.sidebar.write("**Tips**")
